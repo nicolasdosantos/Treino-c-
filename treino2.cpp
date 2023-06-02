@@ -115,7 +115,7 @@ cout<<"Qual o tamanho do ovo desejado\n*Pequeno (P)\n*Médio (M)\n*Grande (G)\n\n
 		valor = valor +3.30;
 	}
 	else if (pagamento == "P" or pagamento == "D"){
-		valor = valor /1.10;
+		valor = valor / 1.10;
 	}
 	
 	system("pause");
@@ -128,7 +128,5 @@ cout<<"Qual o tamanho do ovo desejado\n*Pequeno (P)\n*Médio (M)\n*Grande (G)\n\n
 	system("cls");
 	
 	cout << "Sua compra total ficou de " <<valor<< " no total";
-	cin >> valor;
-	
 	
 }
